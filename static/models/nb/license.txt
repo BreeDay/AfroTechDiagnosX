@@ -1,0 +1,11 @@
+Model Information:
+* title:	Male Boy
+* source:	https://sketchfab.com/3d-models/male-boy-862c7fdb00cb4c8ba572ead557536cc4
+* author:	Raj_Kumar_Jadhav (https://sketchfab.com/mynameisRJ)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Male Boy" (https://sketchfab.com/3d-models/male-boy-862c7fdb00cb4c8ba572ead557536cc4) by Raj_Kumar_Jadhav (https://sketchfab.com/mynameisRJ) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

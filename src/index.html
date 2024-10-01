@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/static/models/dx_st.jpg" />
+    <title>DiagnosX | Healthcare Equity Reimagined</title>
+  </head>
+  <body>
+    <canvas class="webgl"></canvas>
+    <div class="welcome visible">Welcome to DiagnosX</div>
+
+    <div class="point point-0 visible">
+      <div class="label"></div>
+      <div class="text">HEENT: Normal head, ears, nose and throat.<br /></div>
+    </div>
+
+    <div class="point point-1 visible">
+      <div class="label"></div>
+      <div class="text">
+        Cardiac: ABNORMAL FINDINGS:<br />
+        Tachycardic rhythm.
+      </div>
+    </div>
+
+    <div class="point point-2 visible">
+      <div class="label"></div>
+      <div class="text">
+        Respiratory: Normal <br />
+        lungs are clear
+      </div>
+    </div>
+
+    <div class="point point-3 visible">
+      <div class="label"></div>
+      <div class="text">Abdomen is normal. No tenderness to palpation</div>
+    </div>
+
+    <div class="point point-4 visible">
+      <div class="label"></div>
+      <div class="text">Normal skin and muscle strength.</div>
+    </div>
+
+    <div class="findings visible">
+      <button class="label btn f1" onclick="showFindings();">
+        What is heart disease?
+      </button>
+      <div class="more first none" id="first">
+        Heart disease occurs when something goes wrong with this pumping system.
+        It can either be due to the heart muscle itself not functioning properly
+        or the arteries that supply blood to the heart being blocked.
+        <br /><br />
+        <button class="whtbtn wb1" onclick="showMeaning();">
+          What are the risk factors?
+        </button>
+      </div>
+
+      <div class="more second none">
+        Smoking <br />
+        * High blood pressure <br />
+        * High cholesterol <br />
+        * Diabetes <br />
+        * Overweight or obesity <br />
+        * Family history of heart disease <br />
+        * Inactivity<br />
+        * Unhealthy diet<br /><br />
+        <div class="whtbtn wb2">
+          <a href="https://delightful-mooncake-cb955d.netlify.app"
+            >See visual breakdown</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  const first = document.querySelector(".first");
+
+  function showFindings() {
+    const f1 = document.querySelector(".f1");
+    first.classList.remove("none");
+    f1.classList.add("none");
+    console.log(f1);
+  }
+
+  function showMeaning() {
+    const second = document.querySelector(".second");
+    console.log(second);
+    second.classList.remove("none");
+    first.classList.add("none");
+    console.log(second);
+  }
+</script>
